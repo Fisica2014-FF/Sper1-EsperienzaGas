@@ -1,0 +1,18 @@
+set terminal tikz monochrome
+set output "gnuplot/immagini/test3_g.tex"
+
+set title  "Test 3"
+set xlabel "Tempo $[s]$"
+set ylabel "Temperatura $[\\gradi C]$"
+
+# This places the key in the bottom left corner, left-justifies the text, TOLTO->(gives it a title, and draws a box around it in linetype 3):
+set key right bottom Left
+
+f1(x) = 30.04 - 0.0015 * x
+
+
+#fit f1(x) "<tail -4 ./dati_formattati/t1" using 1:2 via a,b
+
+plot "./dati_formattati/t3" using 1:2 title "Dati", \
+f1(x) title "Perdita di calore: \$f(x) = a[\\gradi C] + b [\\frac{\\gradi C}{s}] \\cdot x\$"
+
