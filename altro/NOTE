@@ -10,3 +10,8 @@ Fatti i file di dati, (si mettono in ordine secondo la pressione). A questo punt
 sigma dei valori del volume. Quest'operazione si ripete per tutti i valori di pressione e si si fa una media delle sigma per ottenere la sigma
 sui volumi. Si fa oltretutto per tutti i file racchiudenti le diverse temperature. L'operazione si ripete scambiando pressione e volume per
 ottenere anche la sigma sulle pressioni.
+
+Appunti
+
+Ordina i dati e separa a parità di Pressione E temperatura le righe, per vedere come varia il volume
+cat * | sort | uniq -w14 --all-repeated=separate | perl -pe "s/^$/@/" 
