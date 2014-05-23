@@ -1,0 +1,12 @@
+File di dati
+Prima colonna: Pressione
+Seconda colonna: Volume
+Terza colonna: Temperatura
+
+Trovare l'isoterma. Partiamo dal presupposto che essa sia un'isoterma. questo vuol dire che la temperatura ha un suo errore, calcolabile 
+direttamente con la formula statistica. Si dividano i dati in intervalli secondo il loro errore sulla temperatura (per esempio un file da 10
+a 11 gradi e così via, con un'ampiezza legata alla sigma).
+Fatti i file di dati, (si mettono in ordine secondo la pressione). A questo punto si prendono i dati che hanno la stessa pressione e si fa una
+sigma dei valori del volume. Quest'operazione si ripete per tutti i valori di pressione e si si fa una media delle sigma per ottenere la sigma
+sui volumi. Si fa oltretutto per tutti i file racchiudenti le diverse temperature. L'operazione si ripete scambiando pressione e volume per
+ottenere anche la sigma sulle pressioni.
