@@ -13,5 +13,5 @@ ottenere anche la sigma sulle pressioni.
 
 Appunti
 
-Ordina i dati e separa a parità di Pressione E temperatura le righe, per vedere come varia il volume
-cat * | sort | uniq -w14 --all-repeated=separate | perl -pe "s/^$/@/" 
+Ordina i dati e separa a parità di Pressione es temperatura le righe, per vedere come varia il volume
+paste d0_{p,t,v} | sort -n | uniq --check-chars=15 --all-repeated=separate | perl -pe "s/^$/@/"
