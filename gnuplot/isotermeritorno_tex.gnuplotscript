@@ -1,0 +1,22 @@
+ 
+set terminal tikz
+set output "gnuplot/immagini/isotermeritorno.tex"
+
+set title  "Prima giornata"
+set xlabel 'Inverso della pressione $[\frac{cm^2}{Kgf}]$'
+set ylabel 'Volume $[cm^3]$'
+
+# This places the key in the bottom left corner, left-justifies the text, TOLTO->(gives it a title, and draws a box around it in linetype 3):
+set key right bottom Left
+
+set border 3 front linetype -1 linewidth 1.000
+set xtics border in nomirror rangelimit
+set ytics border in nomirror rangelimit
+
+plot "./dati_grezzi/d0r" using 1:2 title '' w l, \
+ "./dati_grezzi/d10r" using 1:2 title '' w l, \
+ "./dati_grezzi/d15r" using 1:2 title '' w l, \
+ "./dati_grezzi/d20r" using 1:2 title '' w l, \
+ "./dati_grezzi/d25r" using 1:2 title '' w l, \
+ "./dati_grezzi/d30r" using 1:2 title '' w l, \
+ "./dati_grezzi/d35r" using 1:2 title '' w l

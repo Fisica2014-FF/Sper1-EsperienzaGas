@@ -1,9 +1,10 @@
-set terminal tikz monochrome
-set output "gnuplot/immagini/moli.tex"
+ 
+set terminal tikz
+set output "gnuplot/immagini/temp_isoterma0.tex"
 
-set title  'Moli calcolate'
-set xlabel 'Numero misura'
-set ylabel 'Moli $[mol]$'
+set title  "Prima Isoterma Andata"
+set xlabel 'Numero della misura'
+set ylabel 'Temperatura $[\gradi C]$'
 
 # This places the key in the bottom left corner, left-justifies the text, TOLTO->(gives it a title, and draws a box around it in linetype 3):
 set key right bottom Left
@@ -12,6 +13,4 @@ set border 3 front linetype -1 linewidth 1.000
 set xtics border in nomirror rangelimit
 set ytics border in nomirror rangelimit
 
-plot "./altro/moli1" using 0:1 title "Moli" w l
-
-
+plot "./dati_grezzi/d0" using 0:3 title '' w l
