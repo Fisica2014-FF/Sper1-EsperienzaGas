@@ -1,0 +1,24 @@
+set terminal tikz
+set output "./gnuplot/immagini/isobare.tex"
+
+   
+set xlabel 'Volume $[cm^3]$'
+set ylabel 'Pressione $[\frac{Kgf}{cm^2} C]$'
+
+# This places the key in the bottom left corner, left-justifies the text, TOLTO->(gives it a title, and draws a box around it in linetype 3):
+set key right bottom Left
+
+f1(x) = 27.96 - 0.00103 * x
+
+
+set border 3 front linetype -1 linewidth 1.000
+set xtics border in nomirror rangelimit
+set ytics border in nomirror rangelimit
+
+#fit f1(x) "<tail -4 ./dati_formattati/t1" using 1:2 via a,b
+
+
+plot  './risultati/TEST_isobara2' using (1.0/$3):($1) w p title '$1^a$', \
+      './risultati/TEST_isobara1' using (1.0/$3):($1) w p title '$2^a$', \
+      './risultati/TEST_isobara3' using (1.0/$3):($1) w p title '$3^a$', \
+      './risultati/TEST_isobara4' using (1.0/$3):($1) w p title '$4^a$'

@@ -1,0 +1,14 @@
+L'apparato strumentale è stato utilizzato in modo da non comrometterne la rigidità e il funzionamento.
+è costituito da: 
+ELENCO A PUNTI
+-	Vaso Dewar: contenitore in grado di limitare lo scambio di calore tra l'ambiente al suo interno e quello al suo esterno,
+chiuso ermeticamente e contenente un contenitore per gas immerso in una soluzione di acqua e ghiaccio.
+-	Riscaldatore: apparato elettronico in grado di riscaldare l'acqua contenuta nel vaso Dewar, controllabile attraverso un software che ne
+ permette la regolazione.
+-	Sistema di misura: apparato elettronico in grado di misurare le grandezze termodinamiche del gas presente nel vaso Dewar.
+ Controllabile attraverso un software.
+-Valvola a tre vie: Valvola che permette l'entrata e la fuoriuscita del gas all'interno del vaso Dewar facilmente utilizzabile
+ manualmente.
+-Contenitore gas: Contenitore di gas posto dentro il vaso Dewar e in equilibrio termico con il suo ambiente interno, collegato all'ambiente esterno per mezzo di dei tubicini che si collegano alla valvola a tre vie.
+-Agitatore: asta con farfalla immersa in acqua che permette la velocizzazioen del processo di equilibrio termico tra acqua e gas.
+-Stantuffo a manopola: Pistone in grado di controllare il volume del gas

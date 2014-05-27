@@ -1,0 +1,24 @@
+Utilizzo solamente dei dati presi la prima gioranta: quelli la seconda giuoranta risultano poco attendibili.
+-	Per sigmav sigmat e sigmap utilizzare il metodo discusso dal vivo e in classe assieme. Se avete idee migliori
+	dite pure, a me non p venuto in kmente niente altro
+-	Per le moli eventualmente perse: prendere da tutte le terne una stima delle moli (n=PV/RT) con una R particolarmente precisa
+	(prenderei il valore dal Bettini o meglio da http://goldbook.iupac.org/G02579.html che è molto attendibile (è quello
+	che aveva consigliato Vittadini, alta precisione, errore trascurabile, fonti attendibili)
+-	L'isoterma va rappresentata, per trovare le isocore e le isobare farei QUALCHE incrocio dati (non tutti i possibili)
+	tipo una decina di pressioni diverse. Nel senso che si prendono tutti i dati (come nel caso del calcolo delle sigma)
+	e si scelgono i dati che abbiano una pression e compresa tra i valori p0 - sigmap e p0 +sigmaP per un opportuno P0
+	(quello per cui si trova qualche valore sostanzialmente) e si rappresenta il tutto in un grafico. Basta rappresentare,
+	interpolare, e fatto tutto. Analogo si fa per l'isocora con i volumi.
+-	Analisi dati finita (penso) al massimo si può fare qualcosa con il CHIQUADRO ma non la ritengo di vitale importanza
+	e quella scritta mi sembra rispecchiare abbastanza bene i bisogni dell'esperienza.
+	Mi raccomando, ripeto la mia è un'IDEA se ne avete di migliori fate pure. Direi:
+Francesco: prenditela con il primo programma, quello del calcolo delle sigma e del terzo punto per trovare isocore e isobare
+(non penso sia molto diversa la questione, dovrebbe essere una struttura molto simile)
+Simone: pensa al programma per il calcolo delle moli, (punto 2) fa un programma che ti crei un file .dat in cui ci sono
+tutti i valori.
+Sappiate che se io non mi sto mettendo a fare programmi è perché penso a scrivere tutta la parte discorsiva & Co.,
+comunque sono pienamente disposto a cimentarmi in qualche programma, con piacere, ma dato le mie capacità in programmazione
+comparate alle vostre mi sembra uno sforzo inutile. Ah a proposito. Francesco, almeno la base del programma, se puoi, se
+riesci, mi piacerebbe riuscire a capirla.
+Avete il mio numero e il mio facebook per qualunque cosa serva.
+Non abbiamo molto tempo.

@@ -1,0 +1,14 @@
+set terminal tikz monochrome
+set output "gnuplot/immagini/moli.tex"
+
+set title  "Moli calcolate"
+set xlabel "Numero misura"
+set ylabel "Temperatura $[mol]$"
+
+# This places the key in the bottom left corner, left-justifies the text, TOLTO->(gives it a title, and draws a box around it in linetype 3):
+set key right bottom Left
+
+
+plot "./altro/moli1" using 0:1 title "Moli" w l
+
+

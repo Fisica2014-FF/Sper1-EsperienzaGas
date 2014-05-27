@@ -1,0 +1,3 @@
+#Obiettivi
+Scopo dell'esperimento è stata verifica che l'aria si comporta con buona approssimazione come un gas ideale. Ulteriore
+obiettivo è stata la stima del numero di moli di aria presenti all'interno di un contenitore.

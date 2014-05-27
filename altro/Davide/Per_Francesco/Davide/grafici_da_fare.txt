@@ -1,0 +1,8 @@
+-Qualche grafico di TEMPERATURE relative a una ISOTERMA con plot e scrittura errori parametri plotting. Ovviamente
+ci vanno anche le unità di misura.
+-Qualche grafico di ISOTERMA rappresentando la COLONNA 1 in funzione della COLONNA 2 con plot errori e udm.
+-Il grafico delle moli (serve Simone) con calcolo della skewness della gaussiana e plot gaussiana che in teoria
+sarebbe dovuta venir fuori.
+
+quando dico qualche, intendo che andrebbero bene anche tutti, ma che ho paura di appesantire la relazione e di non
+fare in tempo entro domani
